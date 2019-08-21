@@ -1,0 +1,39 @@
+ul {
+    border:1px lightgrey solid;
+    background-color: #eff0f2;
+    width:20%;
+    padding: 200px 0;
+    margin: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+    ul {
+        width:94%;
+        padding:10px;
+
+    }
+    ul li {
+        display:inline-block;
+        width:50%;
+    }
+}
+
+ul li {
+    list-style-type:none;
+    background-color: #1c36f2;
+    color:white;
+    font-family: Geneva, sans-serif ;
+    font-size:15px;
+    padding: 10px 50px;
+    margin:30px 40px;
+    text-align:center;
+    border-radius:4px;
+
+}
+
+ul li:hover {
+    background-color: #558cf1;
+    cursor: pointer;
+
+}
